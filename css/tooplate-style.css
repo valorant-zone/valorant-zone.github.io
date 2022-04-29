@@ -846,9 +846,20 @@ i {
   height: 550px;
 }
 
+/*---------------------------------------
+  ARTICLE 2            
+-----------------------------------------*/
+
+#article-2 {
+  background: url("../images/article2back.jpg") 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 550px;
+}
+
 /* 
 
-TESTETETETEEES
+BOX ARTICLE CENTRER TEST TEST
 
 
 */
