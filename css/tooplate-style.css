@@ -201,7 +201,7 @@ a:focus {
 #team,
 #contact,
 footer {
-  background: #ffffff;
+  background: #f4f3ef;
 }
 
 #about,
@@ -250,12 +250,6 @@ footer {
   border: 1px solid #959595;
   border-top-color: #ffffff;
   animation: spinner 0.9s linear infinite;
-}
-
-@-webkit-@keyframes spinner {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes spinner {
@@ -584,8 +578,8 @@ footer {
 -----------------------------------------*/
 
 footer {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 footer h4 {
