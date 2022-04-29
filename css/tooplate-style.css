@@ -463,67 +463,6 @@ footer {
 }
 
 /*---------------------------------------
-   TEAM             
------------------------------------------*/
-
-#team .item {
-  display: block;
-  width: 100%;
-  margin-bottom: 22px;
-}
-
-#team h3,
-#team p {
-  margin: 0;
-}
-
-.team-item {
-  overflow: hidden;
-  position: relative;
-  margin-top: 34px;
-  margin-bottom: 16px;
-}
-
-.team-item img {
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-}
-.team-item:hover img {
-  transform: scale(1.1);
-}
-
-.team-overlay {
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-}
-
-.team-overlay .social-icon {
-  position: relative;
-  top: 45%;
-}
-.team-overlay .social-icon li a {
-  background: #ffffff;
-  color: #191919;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-}
-
-.team-item:hover .team-overlay {
-  opacity: 1;
-}
-
-/*---------------------------------------
   CONTACT             
 -----------------------------------------*/
 
@@ -571,6 +510,10 @@ footer {
   border: none;
   padding: 0;
   line-height: 50px;
+}
+
+#titreContact {
+  color: #fff;
 }
 
 /*---------------------------------------
@@ -743,6 +686,7 @@ i {
 }
 
 .btn_wrap {
+  margin-top: 20px;
   position: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -855,6 +799,91 @@ i {
   background-size: cover;
   background-position: center center;
   height: 550px;
+}
+
+/*---------------------------------------
+  ARTICLE 3           
+-----------------------------------------*/
+
+#article-3 {
+  background: url("../images/article3back.jpg") 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 550px;
+}
+
+/*---------------------------------------
+  ARTICLE 4           
+-----------------------------------------*/
+
+#article-4 {
+  background: url("../images/article4back.jpg") 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 550px;
+}
+
+/*---------------------------------------
+  ARTICLE 5          
+-----------------------------------------*/
+
+#article-5 {
+  background: url("../images/article5back.jpg") 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 550px;
+}
+
+/* 
+
+GALLERY
+
+*/
+.colonne {
+  display: flex;
+  flex-direction: row;
+}
+
+.gif1 {
+  background: url(../images/cypher.gif) no-repeat center;
+  position: relative;
+  background-size: auto;
+}
+.gif2 {
+  background: url(../images/breach.gif) no-repeat center;
+  position: relative;
+  background-size: auto;
+}
+.gif3 {
+  background: url(../images/neon.gif) no-repeat center;
+  position: relative;
+  background-size: auto;
+}
+.gif4 {
+  background: url(../images/kayo.gif) no-repeat center;
+  position: relative;
+  background-size: auto;
+}
+.gif5 {
+  background: url(../images/chamber.gif) no-repeat center;
+  position: relative;
+  background-size: auto;
+}
+.gif6 {
+  background: url(../images/sova.gif) no-repeat center;
+  position: relative;
+  background-size: auto;
+}
+
+.box {
+  min-width: 230px;
+  min-height: 230px;
+  flex: 1;
+}
+.galery-box {
+  background-position: center;
+  margin: 5px;
+  flex-wrap: wrap;
 }
 
 /* 
